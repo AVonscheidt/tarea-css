@@ -1,0 +1,78 @@
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 450%;
+    letter-spacing: 5px;
+    text-shadow: gray 6px 6px;
+}
+h2, h3{
+    font-family: cursive;
+    font-size: x-large;
+    text-decoration: underline;
+}
+h4{
+    font-family: cursive;
+    font-size: large;
+}
+p {
+    font-size: large;
+}
+li {
+    font-size: larger;
+}
+ul{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+#titulos {
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+#foto-significado {
+    display: flex;
+    justify-content: space-around;
+}
+.texto {
+    font-size: 130%;
+}
+#cinturones {
+    display: flex;
+    justify-content:  space-evenly;
+    flex-direction: row-reverse;
+    align-items: stretch;
+}
+.foto{
+    display: flex;
+    justify-content: baseline;
+    margin-left: 10%;
+    justify-content:stretch;
+}
+.text {
+    width:max-content;
+    display: flex;
+    justify-content: last baseline;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+#torneos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#olimpico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#divisiones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#significado{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
